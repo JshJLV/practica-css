@@ -1,0 +1,7 @@
+/* aplicando reset a estilos de la pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
