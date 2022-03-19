@@ -1,16 +1,116 @@
 /* estilos de la pagina principal */
+/* Color de titulos: #1f3e72 */
+/* Color de los parrafos de informacion */
+
+/* configurando contenedor principal */
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+/* estilos de la informacion y el registro a la vacuna*/
 
 #registro-vacuna {
     display: flex;
     width: 100%;
+    /* flex-wrap: wrap; */
+    height: 800px;
+    border-bottom: 2px solid black;
 }
 
-#texto-registro-vacuna {
-    background-color: green;
-    flex-grow: 1;
+#informacion-registro-vacuna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 52%;
+    /* width: 52%; */
+    height: 800px;
 }
+
+.texto-registro-vacuna h1{
+    text-transform: capitalize;
+    font-size: 60px;
+    color: #1f3e72;
+    margin-bottom: 10px;
+}
+
+.texto-registro-vacuna p {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    color: #6d7b93;
+}
+
+/* estilos del selector y registro de la vacuna */
+
+#selector-registro-vacuna {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 4px 4px 4px rgba(26, 26, 26, 0.075),
+    -4px -4px 4px rgba(26, 26, 26, 0.075) ;
+}
+
+#campos-selector-vacuna {
+    display: flex;
+    justify-content: space-around;
+    color: #6d7b93;
+}
+
+
+#opciones-selector-vacuna input[type="text"], input[type="date"], select {
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eee;
+}
+
+#opciones-selector-vacuna input[type="text"]:hover, input[type="date"]:hover, select:hover {
+    border-color: #ccc;
+}
+
+#opciones-selector-vacuna input[type="text"]:focus, input[type="date"]:focus, select:focus  {
+    border-color: rgb(0, 112, 201);
+    box-shadow: 0 2px 1px rgba(0, 112, 201, 0.075),
+    inset, 0 0 4px rgba(0, 112, 201);
+}
+
+#opciones-selector-vacuna input[type="submit"] {
+    border-radius: 4px;
+    margin: 10px 0px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: #2747c5;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#opciones-selector-vacuna input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+/* Estilos de la imagen */
 
 #img-registro-vacuna {
-    background-color: blue;
-    flex-grow: 1;
+    flex-basis: 48%;
+    height: 800px;
+}
+
+#img-registro-vacuna img {
+    width: 100%;
+    height: 100%;
+}
+
+/* seccion con los logos de las farmaceuticas */
+
+#logos-farmaceuticas {
+    flex-basis: 100%;
+    padding: 10px;
+    background-color: red;
 }

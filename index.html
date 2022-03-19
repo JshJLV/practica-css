@@ -8,6 +8,13 @@
     <link rel="stylesheet" type="text/css" href="./styles/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./styles/css/header.css">
     <link rel="stylesheet" type="text/css" href="./styles/css/index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+    </style>
+
     <title>Vacunacion</title>
 </head>
 
@@ -31,12 +38,42 @@
         <!-- primera seccion con dos div
         uno para el text de fight virus... y la img -->
         <section id="registro-vacuna">
-            <div id="texto-registro-vacuna">
-                <h1>hola</h1>
+            <div id="informacion-registro-vacuna">
+                <div class="texto-registro-vacuna">
+                    <h1>fight virus<br>with vaccines</h1>
+                    <br>
+                    <p>Let's stop this pandemic by killong the virus</p>
+                    <p>with a vaccine, don't let yourself and your</p>
+                    <p>family get infected</p>
+                    <br><br><br><br>
+                    <h3>Schedule your vaccinations</h3>
+                </div>
+                <div id="selector-registro-vacuna">
+                    <div id="campos-selector-vacuna">
+                        <p>Ubicacion</p>
+                        <p>Fecha</p>
+                        <p>Vacuna</p>
+                    </div>
+                    <div id="opciones-selector-vacuna">
+                        <input type="text" id="estado" name="estado" placeholder="Escribe el estado...">
+                        <input type="date" id="birthday" name="birthday">
+                        <select>
+                            <option>AztraZeneca</option>
+                            <option>Pfizer</option>
+                            <option>Moderna</option>
+                            <option>Sinovac</option>
+                        </select>
+                        <input type="submit" id="enviar" name="enviar">
+                    </div>
+                </div>
             </div>
             <div id="img-registro-vacuna">
-                <h1>mundo</h1>
+                <img src="./styles/img/front-view-female-nurse-white-medical-suit-with-red-mask-injection-her-hands-blue.jpg"
+                    alt="Imagen de enfermera">
             </div>
+        </section>
+        <section id="logos-farmaceuticas">
+            <h1>hola mundo</h1>
         </section>
     </main>
 
