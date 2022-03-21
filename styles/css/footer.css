@@ -1,0 +1,75 @@
+/* estilos generales del footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #eef3ff;
+}
+
+#seccion-links-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.info-footer {
+    flex-basis: 45%;
+}
+
+.info-footer h4 {
+    font-size: 30px;
+    color: #3656d4;
+}
+
+.info-footer p {
+    color: #6d7b93;
+}
+
+.menu-links-footer {
+    display: flex;
+    flex-basis: 55%;
+    justify-content: space-around;
+}
+
+.menu-links-footer ul li{
+    padding: 10px;
+}
+
+.menu-links-footer h4{
+    font-size: 20px;
+    color: #254376;
+}
+
+.menu-links-footer a {
+    text-decoration: none;
+    color: #75839a;
+    transition: all 300ms;
+}
+
+.menu-links-footer a:hover {
+    color: #ccc;
+}
+
+#terminos-condiciones-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-footer {
+    color: #75839a;
+}
+
+.terminos-condiciones-footer {
+    color: #75839a;
+}
+
+.terminos-condiciones-footer a {
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 300ms;
+}
+
+.terminos-condiciones-footer a:hover {
+    color: #ccc;
+}

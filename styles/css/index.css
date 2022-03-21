@@ -57,7 +57,6 @@ main {
     color: #6d7b93;
 }
 
-
 #opciones-selector-vacuna input[type="text"], input[type="date"], select {
     border-radius: 4px;
     margin: 10px 0px;
@@ -203,6 +202,8 @@ main {
     max-width: 90%;
 }
 
+/* informacion para preparativos para la vacuna */
+
 #informacion-preparativos-vacuna {
     flex-basis: 52%;
     height: 700px;
@@ -221,6 +222,18 @@ main {
     font-size: 20px;
 }
 
+.menu-informacion {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.menu-tarjetas-preparativos {
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
 /* seccion numeros de emergencia */
 
 #contenedor-contacto-emergencia {
@@ -233,7 +246,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-basis: 52%;
+    flex-basis: 56%;
     height: 800px;
     padding: 15px;
 }
@@ -245,10 +258,12 @@ main {
 #informacion-contacto-emergencia h1 {
     color: #1f3e72;
     text-transform: capitalize;
+    font-size: 40px;
 }
 
 #informacion-contacto-emergencia p {
     color: #6d7b93;
+    font-size: 20px;
 }
 
 #tarjetas-contacto-emergencia {
@@ -261,18 +276,48 @@ main {
 .tarjetas-numeros {
     width: 250px;
     height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     margin: 20px;
     border: 2px solid #eee;
     border-radius: 8px;
 }
 
+.tarjetas-numeros h4 {
+    color: #1f3e72;
+}
+
+.tarjetas-numeros p {
+    color: #77849b;
+}
+
+.tarjetas-numeros a{
+    padding: 15px 50px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3251d0;
+    background-color: #f1f5ff;
+    transition: all 300ms;
+}
+
+.tarjetas-numeros a:hover {
+    background-color: #3455d2;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* color botones #f1f5ff */
 /* imagen de contacto de emergencia */
 
 #img-contacto-emergencia {
     display: flex;
     align-items: flex-end;
     align-self: flex-end;
-    flex-basis: 48%;
+    flex-basis: 44%;
     height: 500px;
     background: linear-gradient(to right, #079ae6, #3167db);
 }
