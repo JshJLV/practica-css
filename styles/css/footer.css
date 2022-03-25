@@ -60,14 +60,11 @@ footer {
     color: #75839a;
 }
 
-.terminos-condiciones-footer {
-    color: #75839a;
-}
-
 .terminos-condiciones-footer a {
     text-decoration: none;
     margin: 0 20px;
     transition: all 300ms;
+    color: #76839a;
 }
 
 .terminos-condiciones-footer a:hover {
