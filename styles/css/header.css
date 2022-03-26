@@ -6,8 +6,6 @@
 header {
     width: 100%;
     height: 120px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid #eee;
 }
 
 nav {
@@ -15,6 +13,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 120px;
+    border-bottom: 1px solid #eee;
 }
 
 /* estilos de la parte del logo */
@@ -57,7 +56,7 @@ nav {
     color: #bbb;
 }
 
-/* estilos del boton hasta la izquierda de la navbar */
+/* estilos del boton a la derecha de la navbar */
 
 #boton-navbar {
     flex-grow: 1;
@@ -70,4 +69,11 @@ nav {
     border-radius: 4px;
     color: #fff;
     background: linear-gradient(to right, #3959d7, #2646c4);
+    transition: all 300ms;
+}
+
+#boton-navbar a:hover {
+    color: #eee;
+    box-shadow: 6px 6px 10px #ccc;
+    box-shadow: -3px -3px 10px #ccc;
 }

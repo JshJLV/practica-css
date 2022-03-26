@@ -15,9 +15,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
     </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
     <title>Vacunacion</title>
 </head>
 
@@ -48,14 +47,46 @@
                     <p>Let's stop this pandemic by killong the virus</p>
                     <p>with a vaccine, don't let yourself and your</p>
                     <p>family get infected</p>
-                    <br><br><br><br>
-                    <h3>Schedule your vaccinations</h3>
+                    <br><br><br>
+                    <p>
+                        <span class="material-icons icon-tarjetas-yellow">
+                            gpp_good
+                        </span>
+                        Best protection
+                    </p>
+                    <p>
+                        <span class="material-icons icon-tarjetas-yellow">
+                            star
+                        </span>
+                        Selected vaccines
+                    </p>
                 </div>
                 <div id="selector-registro-vacuna">
+                    <div class="schdule">
+                        <span class="material-icons icon-tarjetas-blue">
+                            schedule
+                        </span>
+                        <h3>Schedule your vaccinations</h3>
+                    </div>
                     <div id="campos-selector-vacuna">
-                        <p>Ubicacion</p>
-                        <p>Fecha</p>
-                        <p>Vacuna</p>
+                        <p>
+                            <span class="material-icons icon-tarjetas-blue">
+                                location_on
+                                </span>
+                            Location
+                        </p>
+                        <p>
+                            <span class="material-icons icon-tarjetas-blue">
+                                calendar_month
+                            </span>
+                            Date
+                        </p>
+                        <p>
+                            <span class="material-icons icon-tarjetas-blue">
+                                edit
+                            </span>
+                            Vaccine Type
+                        </p>
                     </div>
                     <div id="opciones-selector-vacuna">
                         <input type="text" id="estado" name="estado" placeholder="Escribe el estado...">
@@ -66,7 +97,7 @@
                             <option>Moderna</option>
                             <option>Sinovac</option>
                         </select>
-                        <input type="submit" id="enviar" name="enviar">
+                        <input type="submit" id="Submit" value="Submit">
                     </div>
                 </div>
             </div>
@@ -75,6 +106,8 @@
                     alt="Imagen de enfermera">
             </div>
         </section>
+
+        <!-- seccion con los logos de las farmaceuticas -->
         <section id="logos-farmaceuticas">
             <div class="img-logos">
                 <img src="./styles/img/logo_astrazeneca.png" alt="logo astrazeneca">
@@ -89,6 +122,7 @@
                 <img src="./styles/img/logo_moderna.png" alt="logo moderna">
             </div>
         </section>
+
         <!-- seccion de tarjetas informativas -->
         <section id="informacion-beneficio-vacunas">
             <!-- informacion -->
@@ -102,7 +136,11 @@
             <!-- tarjetas -->
             <div id="tarjetas-informacion">
                 <div class="tarjetas">
-                    <div class="icono-info-vacuna">Icono</div>
+                    <div class="icono-info-vacuna">
+                        <span class="material-icons icon-tarjetas-blue">
+                            tune
+                        </span>
+                    </div>
                     <div class="descripcion-info-vacuna">
                         <h3>Minimize the spread of viruses</h3>
                         <p>
@@ -113,8 +151,8 @@
                 </div>
                 <div class="tarjetas">
                     <div class="icono-info-vacuna">
-                        <span class="material-icons-outlined">
-                            verified_user
+                        <span class="material-icons icon-tarjetas-blue">
+                            gpp_good
                         </span>
                     </div>
                     <div class="descripcion-info-vacuna">
@@ -126,7 +164,11 @@
                     </div>
                 </div>
                 <div class="tarjetas">
-                    <div class="icono-info-vacuna">Icono</div>
+                    <div class="icono-info-vacuna">
+                        <span class="material-icons icon-tarjetas-blue">
+                            groups
+                        </span>
+                    </div>
                     <div class="descripcion-info-vacuna">
                         <h3>Protecting people nearby</h3>
                         <p>
@@ -136,7 +178,11 @@
                     </div>
                 </div>
                 <div class="tarjetas">
-                    <div class="icono-info-vacuna">Icono</div>
+                    <div class="icono-info-vacuna">
+                        <span class="material-icons icon-tarjetas-blue">
+                            show_chart
+                        </span>
+                    </div>
                     <div class="descripcion-info-vacuna">
                         <h3>Creating group immunity</h3>
                         <p>
@@ -149,9 +195,11 @@
         </section>
         <!-- seccion donde se muestran las listas de informacion desplegable -->
         <section id="preparativos-vacuna">
+            <!-- imagen en los preparativos para la vacuna -->
             <div id="img-preparativos-vacuna">
                 <img src="./styles/img/front-view-young-woman-sterile-mask-yellow-wall.png">
             </div>
+            <!-- tarjetas con los preparativos para la vacuna -->
             <div id="informacion-preparativos-vacuna">
                 <h1>preparations before vaccine</h1>
                 <p>
@@ -161,7 +209,12 @@
                     COVID-19 vaccine work:
                 </p>
                 <div class="menu-informacion">
-                    <div class="menu-tarjetas-preparativos">Avoid alcoholic beverages</div>
+                    <div class="menu-tarjetas-preparativos">
+                        <span class="material-icons icon-tarjetas-blue">
+                            gpp_bad
+                        </span>
+                        Avoid alcoholic beverages
+                    </div>
                     <div class="menu-tarjetas-preparativos">
                         <h6>Avoid stress</h6>
                         <p>
@@ -170,9 +223,24 @@
                             production and oxidative stress in the body
                         </p>
                     </div>
-                    <div class="menu-tarjetas-preparativos">Eat healthy food</div>
-                    <div class="menu-tarjetas-preparativos">Get enought sleep</div>
-                    <div class="menu-tarjetas-preparativos">Exercise or physical activity</div>
+                    <div class="menu-tarjetas-preparativos">
+                        <span class="material-icons icon-tarjetas-blue">
+                            bar_chart
+                        </span>
+                        Eat healthy food
+                    </div>
+                    <div class="menu-tarjetas-preparativos">
+                        <span class="material-icons icon-tarjetas-blue">
+                            check_box
+                        </span>
+                        Get enought sleep
+                    </div>
+                    <div class="menu-tarjetas-preparativos">
+                        <span class="material-icons icon-tarjetas-blue">
+                            favorite
+                        </span>
+                        Exercise or physical activity
+                    </div>
                 </div>
             </div>
         </section>
@@ -190,36 +258,64 @@
                 </div>
                 <div id="tarjetas-contacto-emergencia">
                     <div class="tarjetas-numeros">
-                        <div class="icono-tarjetas-numeros">
-                            <h4>Call</h4>
-                            <p>021.123.145.14</p>
+                        <div class="icono-numeros-tarjetas">
+                            <div class="icono-emergencias">
+                                <span class="material-icons icon-tarjetas-blue">
+                                    phone_in_talk
+                                </span>
+                            </div>
+                            <div class="numeros-emergencia">
+                                <h4>Call</h4>
+                                <p>021.123.145.14</p>
+                            </div>
                         </div>
                         <div class="boton-tarjetas-numeros">
                             <a href="#">Call Now</a>
                         </div>
                     </div>
                     <div class="tarjetas-numeros">
-                        <div class="icono-tarjetas-numeros">
-                            <h4>Chat</h4>
-                            <p>021.123.145.14</p>
+                        <div class="icono-numeros-tarjetas">
+                            <div class="icono-emergencias">
+                                <span class="material-icons icon-tarjetas-blue">
+                                    textsms
+                                </span>
+                            </div>
+                            <div class="numeros-emergencia">
+                                <h4>Chat</h4>
+                                <p>021.123.145.14</p>
+                            </div>
                         </div>
                         <div class="boton-tarjetas-numeros">
                             <a href="#">Chat Now</a>
                         </div>
                     </div>
                     <div class="tarjetas-numeros">
-                        <div class="icono-tarjetas-numeros">
-                            <h4>Video Call</h4>
-                            <p>021.123.145.14</p>
+                        <div class="icono-numeros-tarjetas">
+                            <div class="icono-emergencias">
+                                <span class="material-icons icon-tarjetas-blue">
+                                    videocam
+                                </span>
+                            </div>
+                            <div class="numeros-emergencia">
+                                <h4>Video Call</h4>
+                                <p>021.123.145.14</p>
+                            </div>
                         </div>
                         <div class="boton-tarjetas-numeros">
                             <a href="#">Video Call Now</a>
                         </div>
                     </div>
                     <div class="tarjetas-numeros">
-                        <div class="icono-tarjetas-numeros">
-                            <h4>Message</h4>
-                            <p>021.123.145.14</p>
+                        <div class="icono-numeros-tarjetas">
+                            <div class="icono-emergencias">
+                                <span class="material-icons icon-tarjetas-blue">
+                                    email
+                                </span>
+                            </div>
+                            <div class="numeros-emergencia">
+                                <h4>Message</h4>
+                                <p>021.123.145.14</p>
+                            </div>
                         </div>
                         <div class="boton-tarjetas-numeros">
                             <a href="#">Message Now</a>
